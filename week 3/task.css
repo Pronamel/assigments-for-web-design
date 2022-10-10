@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Silkscreen&display=swap');
+
+ 
+body {
+    background-color: #81F499;
+}
+
+header {
+    font-size: 50px;
+}
+
+h1 , h2 {
+    font-family: 'Roboto' , cursive ;
+    color: #1548a7;
+    border-bottom-color:green ;
+    border-bottom-width:5px;
+    border-bottom-style:solid;
+    text-align: center;
+	margin: 40px;
+    
+}
+
+h1 {
+
+    font-size:50px;
+
+}
+
+.menu{
+    max-width: 720px;
+    background-color: white;
+    margin: auto;
+    
+     
+}
+
+.item{
+    font-family: 'Silkscreen' , cursive;
+    color:red;
+    margin-bottom:0;
+}
+
+.price{
+
+    font-family:'Silkscreen' , cursive;
+    color:rgb(146, 4, 4);
+    font-size: large;
+    margin-top: 0;
+    
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.foodIcon{
+	color: red;
+	font-size: 150%;
+	padding:0 20px
