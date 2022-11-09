@@ -10,3 +10,19 @@ body {
 
 
 }
+
+
+.sides{
+
+    padding-left: 300px;
+    padding-right: 300px;
+
+
+}
+
+.nopadding{
+
+    padding-left: 0px;
+    padding-right: 0px;
+
+}

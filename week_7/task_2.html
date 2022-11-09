@@ -10,96 +10,106 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styleForTask.css" > 
 </head>
-<body>
+<body  >
       
 
 
-    <h1 id="title"  class=" ">thats the wrong Title</h1>
+    <h1 id="title"  class="p-0">thats the wrong Title</h1>
     <!--looks better not centered-->
 
 
     <main>
 
-        <div class="container  ">
+        <div class="container-fluid  sides">
             <div class="row">
-              <div class="col-3 bg-danger">
-                 
-              </div>
-              <div class="col-4 ">
-                
-                <h1 class="text-light ">Tip Calculator</h1>
+
+                <div class="col-4"></div> 
 
 
-                <h2 class="mt-5 text-center" > enter Total Bill Amount</h2>
+                <div class="col-4 ">
+                    
+                    <h1 class="text-light text-center ">Tip Calculator</h1>
 
-                <div class="container-fluid mt-5 ">
-                    <div class="row">
- 
-                      <div class="col text-center">
 
-                        <input id="textBox" class="text-center" type="Name" placeholder="enteramount">  
+                    
+
+                    <div class="container   text-left ">
+                        <div class="row">
+                            <p class="mt-5 text-left  text-light" > Enter Total Bill Amount</p>
+    
+                        <div class="  "> 
+                            
+                            
+                            <input id="textBox"   type="Name" placeholder="enter here " width="100">   
+                            
+                        </div>
+    
+                        </div>
+                    </div>
+
+
+
+
+                    
+                    <!--holds the buttons for the tip calculation-->
+                    <div class="container      ">
+                        <div class="row">
+                        <h6 class="mt-5  text-light">Select Tip Preferences</h6>
                         
-                      </div>
- 
-                    </div>
-                  </div>
-
-
-
-
-
-                <!--holds the buttons for the tip calculation-->
-                <div class="container-fluid   mt-5 ">
-                    <div class="row">
-
-                      <div class="col "    width="100" >
                          
-                        <button onclick = "Fivepercent()" type="button" class="btn  btn-primary  btn-lg">5%</button>
- 
-                      </div>
+                              
+                        <div class="d-grid  col-4 mt-1">
+                             <h1 onclick = "Fivepercent()"  class="btn-primary  rounded  text-center" >  5%</h1> 
+                        </div>
 
-                      <div class="col   mx-3   ">
-                        <button onclick = "tenPercent()" type="button" class="btn  btn-primary  btn-lg">10%</button>
-                      </div>
+                        <div class="d-grid  col-4  mt-1  ">
+                             
+                            <h1 onclick = "tenPercent()"  class="btn-primary  rounded  text-center" >  10%</h1> 
+                        </div>
 
-                      <div class="col    ">
-                        <button onclick = "getElementById()" type="button" class="btn  btn-primary  btn-lg">25%</button>
-                      </div>
+                        <div class="d-grid  col-4 mt-1 ">
+
+                            <h1 onclick = "twentyfivePercent()"  class="btn-primary  rounded  text-center" >  25%</h1> 
+                             
+                         </div>
 
 
+                        </div>
                     </div>
-                  </div>
-                
+                    
+                     
 
+                    
+                    <div class="container   mt-5   ">
+                        <div class="row">
 
-                  
-                  <div class="container   mt-5 text-center">
-                    <div class="row">
-
-                      <div class="col "    >
-                        <button onclick = "getTip()" type="button" class="btn  btn-primary  btn-lg">Largest From 25% or £2+10%</button>   
-                      </div>
+                        <div class="col   "    >
+                            <h3 onclick = "twentfiveORpercent()"  class="btn-primary  rounded" >Largest From 25% or £2+10%</h3> 
+                             
+                        </div>
+                        </div>
                     </div>
-                  </div>
 
 
-                <h3 class="mt-5">Tip to Give</h3>
-                  <div class="container text-center   ">
-                    <div class="row">
+                        
+                    <div class="container    ">
+                        <div class="row">
+                            <h3 class="mt-5">Tip to Give</h3>
 
-                      <div class="col " >
-                            <h2 id="displayEl">£xx.xx</h2>
-                      </div>
+                        <div class="col text-center" >
+                                <h1 id="displayEl">£xx.xx</h1>
+                        </div>
                     </div>
-                  </div>
+                </div>
 
 
 
-              </div>
-              <div class="col-3 bg-warning">
-                 
-              </div>
+            
+
+                <div class="col-4"></div> 
+
             </div>
+
         </div>
 
     </main>
@@ -112,7 +122,7 @@
 
 
 
-    
+    <script src="javascpt.js"></script> 
 </body>
-<script src="javascpt.js"></script>
+
 </html>
