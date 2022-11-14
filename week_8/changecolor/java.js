@@ -1,10 +1,15 @@
 
+$( function() {
 
+
+    $(".orangeButton").click(function() {
+        $('#id1').css('color', 'orange');
+      });
+
+})
 
 // JQuery
-$("#orangeButton").click(function() {
-    $('#id1').css('color', 'orange');
-  });
+
   
 // Pure Javascript
 //  document.getElementById("orangeButton").addEventListener("click", orangeButton);

@@ -1,0 +1,28 @@
+
+
+.red_background{
+    background-color: red ;
+}
+
+
+body {
+    background-color:black;
+
+
+}
+
+
+.sides{
+
+    padding-left: 300px;
+    padding-right: 300px;
+
+
+}
+
+.nopadding{
+
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
