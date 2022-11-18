@@ -16,7 +16,6 @@ let billValue = document.getElementById("myInputBox").value;
 
 
  
-    
 
  
 function tenPercent(){
