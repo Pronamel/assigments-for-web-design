@@ -1,53 +1,80 @@
 
 
-var title = document.getElementById("title");
-var displayEl = document.getElementById("displayEl");
+
+
+//var title = document.getElementById("title");
+//var title = $("title")
+title.classList.add("red_background");
+
+
+
+
+
+
+//var dispelementById = $("#displayEl");
 
 
 console.log(title);
 
 title.innerHTML = "Calculator";
-title.classList.add("red_background");
+
+
+
+ 
 
 var x = 0   //the value that is taken from the text bar 
  
+$( function() {
 
-let billValue = document.getElementById("myInputBox").value;
 
+    $(".orangeButton").click(function() {
+        $('#id1').css('color', 'orange');
+      });
 
+})
+ 
+ 
  
 
- 
-function tenPercent(){
 
-    var x = document.getElementById("textBox").value; 
+
+$("#Fivepercent").click(function() {
+
+     var x = $("#textBox").val(); 
+     x = x * 0.05 ;
+
+      displayEl.innerHTML = "£" + x; 
+   });
+
+
+   
+
+$("#tenPercent").click(function() {
+
+    var x = $("#textBox").val(); 
     x = x * 0.1 ;
 
-    displayEl.innerHTML = "£" + x; 
-}
+     displayEl.innerHTML = "£" + x; 
+  });
 
  
-function twentyfivePercent(){
 
-    var x = document.getElementById("textBox").value; 
+ 
+$("#twentyfivePercent").click(function() {
+
+    var x = $("#textBox").val(); 
     x = x * 0.25 ;
 
-    displayEl.innerHTML = "£" + x; 
-}
+     displayEl.innerHTML = "£" + x; 
+  });
 
 
-function Fivepercent(){
-
-    var x = document.getElementById("textBox").value; 
-    x = x * 0.05 ;
-
-    displayEl.innerHTML = "£" + x; 
-}
 
 
-function twentfiveORpercent(){
+$("#twentfiveORpercent").click(function() {
+ 
 
-    var x = document.getElementById("textBox").value; 
+    var x = $("#textBox").val(); 
     var y = Math.floor((Math.random() * 2) + 1);
     
     
@@ -62,7 +89,7 @@ function twentfiveORpercent(){
     
 
     displayEl.innerHTML = "£" + x; 
-}
+});
 
 
 
