@@ -7,7 +7,7 @@
 
 
 
-$("#title").css("background-color","red")
+
 
 //var dispelementById = $("#displayEl");
 
@@ -17,7 +17,7 @@ $("#title").css("background-color","red")
 var h1 = document.getElementById("title");
 console.log(h1);
 h1.innerHTML = "Calculator";
-
+$("#title").css("background-color","red")
 
 
  
