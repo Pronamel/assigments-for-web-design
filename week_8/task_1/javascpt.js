@@ -2,21 +2,21 @@
 
 
 
-//var title = document.getElementById("title");
-//var title = $("title")
-title.classList.add("red_background");
+
+ 
 
 
 
-
-
+$("#title").css("background-color","red")
 
 //var dispelementById = $("#displayEl");
 
 
-console.log(title);
+//var title = $("title");
 
-title.innerHTML = "Calculator";
+var h1 = document.getElementById("title");
+console.log(h1);
+h1.innerHTML = "Calculator";
 
 
 
@@ -24,18 +24,8 @@ title.innerHTML = "Calculator";
 
 var x = 0   //the value that is taken from the text bar 
  
-$( function() {
 
-
-    $(".orangeButton").click(function() {
-        $('#id1').css('color', 'orange');
-      });
-
-})
  
- 
- 
-
 
 
 $("#Fivepercent").click(function() {
