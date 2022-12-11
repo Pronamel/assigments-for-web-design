@@ -24,7 +24,7 @@ function createNode(element) {
   
 //const numberOfUsers = 10;
 const MovieCollection = document.getElementById('Movie');
-const url = 'https://www.omdbapi.com/?s=Star+Wars&apikey=4bd6c391';
+const url = 'https://www.omdbapi.com/?s=No+Country&apikey=4bd6c391';
 
 fetch(url)
   .then((resp) => resp.json())
